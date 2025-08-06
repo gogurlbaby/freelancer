@@ -1,0 +1,44 @@
+.stats-section {
+  display: flex;
+  gap: 6.875rem;
+  padding: 5.625rem 16.25rem;
+}
+.stat {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #070707;
+  font-size: 4rem;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.feedback {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #070707;
+  margin-bottom: 1rem;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.achievement {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #c4c4c4;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+  text-align: center;
+}
+hr {
+  border: 1px solid #d8d8d8;
+}
+
+@media screen and (max-width: 1199px) {
+  .stats-section {
+    display: none;
+  }
+}

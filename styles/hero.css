@@ -1,0 +1,85 @@
+.hero-container {
+  background-color: #040f28;
+  padding: 3.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+.text-content {
+  order: 2;
+  text-align: start;
+}
+.image-container {
+  order: 1;
+}
+.text-content h1 {
+  color: #c4c4c4;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.5rem;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.text-content p {
+  color: #646464;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 32px;
+  margin-bottom: 2.5rem;
+}
+.text-content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 5.438rem;
+  padding: 1rem 2rem;
+  background-color: #fc3867;
+  border: 1px solid #fc3867;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 180%;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    padding: 3.75rem 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-container {
+    flex-direction: row;
+    gap: 8rem;
+    padding: 3.75rem 8.75rem 0;
+  }
+  .text-content {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding-bottom: 14.563rem;
+  }
+  .image-container {
+    order: 2;
+  }
+  .text-content h1 {
+    font-size: 3.5rem;
+    line-height: 74.4px;
+    max-width: 25rem;
+  }
+  .text-content p {
+    max-width: 31.25rem;
+  }
+}
