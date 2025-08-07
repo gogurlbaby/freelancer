@@ -1,0 +1,58 @@
+.subscribe-container {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-heading {
+  color: #c4c4c4;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 100%;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+.subscribe-description {
+  color: #212226;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+.subscribe-btn {
+  border-radius: 5.438rem;
+  padding: 1rem 2rem;
+  border: 1px solid #fc3867;
+  background: linear-gradient(0deg, #fc3867, #fc3867),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 180%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-container {
+    padding: 2rem 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .subscribe-container {
+    padding: 2.5rem 0;
+  }
+  .subscribe-description {
+    font-size: 2.5rem;
+    line-height: 64px;
+  }
+}
